@@ -14,7 +14,7 @@ public class ResultActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mResult = (TextView) fineViewById(R.id.result);
+        mResult = (TextView) findViewById(R.id.result);
         mResult.setText("결과");
     }
 
